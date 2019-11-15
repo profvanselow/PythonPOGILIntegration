@@ -1,5 +1,7 @@
 """
     Code from somewhere.
+
+    __author__ = "Prof. Vanselow"
 """
 
 

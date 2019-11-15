@@ -1,5 +1,7 @@
 """
     Price Calculator.
+
+    __author__ = "Prof. Vanselow"
 """
 
 

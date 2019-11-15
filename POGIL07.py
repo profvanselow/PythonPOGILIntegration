@@ -1,5 +1,7 @@
 """
     Code from POGIL 7.
+
+    __author__ = "Prof. Vanselow"
 """
 
 
