@@ -1,5 +1,5 @@
 """
-    An integration of everything I have learned about programming in Python
+    An integration of everything I have learned about programming in Python.
 
     __author__ = "Prof. Vanselow"
 """
@@ -24,7 +24,14 @@ def main():
         print("4. Decision statements elif")
         print("5. Quit")
 
-        user_choice = int(input())
+        user_choice = 0
+        not_good_input = True
+        while not_good_input:
+            try:
+                user_choice = int(input())
+                not_good_input = False
+            except ValueError:
+                print("Try again.")
 
         if user_choice == 1:
             POGIL04.do_output_format_demo()
